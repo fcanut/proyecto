@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrar.css">
+    <title>Registro de Usuario</title>
+</head>
+
+<body>
+    <div class="registro-container">
+        <div class="formulario">
+            <h1>Registro de Usuario</h1>
+            <form id="registro-formulario" action="http://localhost:8081/Proyecto/registrar_usuario.php" method="post">
+                <div class="campo">
+                    <i class="icono">&#128100;</i>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo">
+                    <i class="icono">&#128101;</i>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="campo">
+                    <i class="icono">&#9993;</i>
+                    <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="campo">
+                    <i class="icono">&#128274;</i>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+                </div>
+                <div class="campo">
+                    <i class="icono">&#128275;</i>
+                    <input type="password" id="confirmar-contrasena" name="confirmar-contrasena"
+                        placeholder="Confirmar Contraseña" required>
+                </div>
+                <button type="submit">Registrarse</button>
+                <button class="button-regresar" id="button-regresar">regresar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Agregar un evento de clic al botón
+        document.getElementById("button-regresar").addEventListener("click", function() {
+            // Redireccionar a la página "inicio-sesion.html"
+            window.location.href = "inicio-sesion.html";
+        });
+    </script>
+</body>
+
+</html>
+
+
+</html>

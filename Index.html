@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>My Proyecto</title>
+</head>
+<body>
+    <div class="top-bar">
+        <button id="openPopupBtn">Inicio Sesión</button>
+        <button class="top-bar-button" id="btnServicios">Servicios</button>
+
+        <script>
+            // Agregar un evento de clic al botón
+            document.getElementById("btnServicios").addEventListener("click", function() {
+                // Redireccionar a la página "servicios.html"
+                window.location.href = "reservacion.html";
+            });
+        </script>
+
+        <button class="top-bar-button">Calendario</button>
+        <button class="top-bar-button">Acerca de</button>
+    </div>
+    <!--Dentro de este rectangulo estara la imagen principal -->
+    <div class="rectangulo-horizontal">
+        <img src="imagenes/evento.jpg" alt="Evento" class="img-grande">
+    </div>
+
+    <div class="rectangulo-horizontal2">
+    <div class="texto1">Llevandote al Siguiente Nivel</div>
+    <div class="linea-horizontal"></div>
+    <img src="imagenes/facebook.png" alt="Evento" class="img-facebook">
+    <img src="imagenes/instagram.png" alt="Evento" class="img-instagram">
+    <img src="imagenes/whatsapp.png" alt="Evento" class="img-whatsap">
+    </div>
+    <img src="imagenes/Logo.png" alt="Evento" class="img-logo">
+
+    <div class="rectangulo-horizontal3"></div>
+
+    <button id="openPopupBtn">Presione Aqui para inicar Sesion</button>
+    <script src="javaScrip.js"></script>
+
+   
+    
+</body>
+</html>

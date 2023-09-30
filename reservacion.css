@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.img-grande {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 0; 
+}
+
+.texto {
+    color: #000000;
+    font-size: 25px; /* Aumentamos el tamaño de fuente */
+    font-weight: bold; /* Hacemos el texto en negrita */
+    text-align: center; /* Centramos el texto horizontalmente */
+    position: relative;
+    top: 1%; /* Ajustamos la posición superior */
+    left: 50%;
+    transform: translateX(-50%); /* Centramos horizontalmente con translateX */
+    z-index: 1;
+}
+
+
+.formulario {
+    width: 600px;
+    height: 700px;
+    margin-top: 1px;
+    padding: 20px;
+    background-color: #ffffff2d;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
+    z-index: 2;
+    display: inline-block;
+    position: absolute; /* Cambia a posición relativa */
+}
+
+.h1{
+    font-size: 18px; /* Tamaño de letra */
+    margin: 5px; /* Margen de 10 píxeles en todos los lados */
+    padding: 5px; /* Espaciado interno de 10 píxeles (opcional) */
+    font-weight: bolder;
+    position: relative;
+    background-color: #fffefe18;
+    width: 200px;
+    left: 150px;
+    text-align: center; /* Alinea el texto en el centro */
+    border-radius: 7px;
+}
+
+/* Estilo para el título del formulario */
+
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"],
+.campo input[type="number"],
+.campo input[type="date"],
+.campo select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.boton-enviar {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; /* Agregar una barra de desplazamiento vertical si es necesario */
+    max-height: 88vh; /* Altura máxima del contenedor */
+}

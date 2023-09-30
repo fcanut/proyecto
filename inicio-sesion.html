@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Principal</title>
+  <link rel="stylesheet" type="text/css" href="inicio-sesion.css">
+  
+</head>
+<body>
+  <div class="rectangulo-horizontal4">
+    <img src="imagenes/inicio.jpg" alt="Evento" class="img">
+    <div class="texto">Usuario</div>
+    <input type="text" id="editableRectangle" class="editable-input" placeholder="Usuario">
+    <div class="texto2">Contraseña</div>
+    <input type="password" id="editableRectangle1" class="editable-input" placeholder="Contraseña">
+
+    <button class="Button-inicio">Inicio</button>
+  
+    <button class="Button-Registro" id="Button-Registro">Registrar</button>
+
+    <script>
+      // Agregar un evento de clic al botón
+      document.getElementById("Button-Registro").addEventListener("click", function() {
+          // Redireccionar a la página "servicios.html"
+          window.location.href = "Registrar.html";
+      });
+  </script>
+
+    <script src="registrar.js"></script>
+
+</div>
+
+</body>
+</html>

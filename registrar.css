@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registro-container {
+    width: 100%;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.formulario {
+    width: 450px;
+    height: 410px;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #6e6e6e2d;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.registro-container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icono {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #8f8c8c8e;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+button-regresar {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+.img-grande {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 0; 
+}
